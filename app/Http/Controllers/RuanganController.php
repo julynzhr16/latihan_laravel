@@ -10,7 +10,7 @@ class RuanganController extends Controller
     public function index()
     {
         $data = Ruangan::all();
-        return view('ruangan.index', compact('data'));
+        return view('ruangan.ruangan', compact('data'));
     }
 
     public function store(Request $request)
